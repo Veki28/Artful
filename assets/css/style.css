@@ -1,5 +1,4 @@
-
-/* Footer */
+/* Body */
 
 body {
     display: flex;
@@ -16,28 +15,36 @@ body {
 
 #socials {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #333;
+    color: #fff;
 }
 
 #socials i {
-    font-size: 160%;
+    font-size: 24px;
     padding: 5%;
     margin: 0 10px;
     color: white;
+    transition: color 0.3s;
+}
+
+#socials i.hover {
+    color: #ccc;
 }
 
 #socials li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
+    margin-right: 10px;
 }
 
 #socials ul {
     padding: 0;
     margin: 0;
     display: inline-block;
+    list-style: none;
 }
 
 #socials ul li {
@@ -47,12 +54,6 @@ body {
 
 #socials ul li:last-child {
     margin-right: 0;
-}
-
-#socials img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
 }
 
 #socials p {
