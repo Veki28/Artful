@@ -36,7 +36,36 @@ body{
   .aboutBack{
       background-color: black;
       color: white;
-      margin-top:56px;
+      padding-top: 104px;
       overflow: scroll;
      height: 700px;
+  }
+  .aboutNav{
+    background-color: black;
+  }
+  .aboutHead {
+    padding-bottom:0px;
+  }
+  .navbar-nav li {
+    font-size: 20px;
+    color: white;
+
+  }
+
+  .navbar-nav li a:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black
+  }
+
+  .navbar-nav li a {
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+
+  .logoTitle {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
   }
