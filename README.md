@@ -11,22 +11,37 @@ Unfortunately Vedran was still feeling ill so couldn't attend . Jean made the fi
 
 
 User stories 
+
 Page Visitor
+
 As a page visitor, I want a clear ,responsive  layout for the website. 
+
 As a page visitor, I want to be able to view high quality images of the artworks so I can appreciate the details and craftsmanship.
+
 As a page visitor,I want contact details so I can easily contact the gallery with any enquiries I may have .
+
 As a page visitor , I want details to the various social media accounts for the website so I can receive updates without having to give my email address
+
 As a page visitor , I want to be able explore a wide range of artworks in the gallery, so I can discover new artists and styles
+
 As a page visitor , I want to be able to access a map or directory of local art galleries and museums, so I can plan my art-filled outings .
 
 
 
 Registered User/Customer
+
 As a customer, I want to be able to save and organise my favourite artworks from the gallery, so I can easily access and admire them later.
+
 As a customer , I want to be able to follow artists and receive updates on their latest artworks , so I can stay inspired and connected in the art community.
+
 As a customer , I want to be able to like and comment on artworks , so I can engage with other users and share my appreciation for their talent.
+
 As a customer , I want to be able to create and manage collections of my favourite artworks , so I easily organise and revisit them whenever I want.
+
 As a customer , I want to be able to customise my preferences based on my art interests , so I can discover new artworks that resonate with me.
+
 As a customer , I want to be able to share artworks with my friends and social media followers , so I can spread the beauty and inspiration.
+
 As a customer , I want to be able to discover upcoming art events and exhibitions in my area. So I can immerse myself in the local art scene.
+
 As a customer , I want to be able to access a map or directory of local art galleries and museums, so I can plan my art-filled outings .
