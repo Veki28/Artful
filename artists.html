@@ -10,13 +10,75 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <title>Artists</title>
+    
 
     <!-- Styling of Artist's cards -->
 
     <style>
+      .navMenu {
+      color: #ffffff;
+
+      text-decoration: none !important;
+
+      padding: 10px;
+
+    }
+
+    .navMenu:hover {
+      background-color: black;
+      color: #C49639;
+
+    }
+
+    .nav-li {
+
+      display: inline-block;
+      padding: 0 10px;
+      font-size: 18px;
+
+    }
+
+    .headermenu {
+      background-color: black;
+      color: white;
+      padding: 0px;
+      margin: 0px;
+
+    }
+
+    .video-heading {
+      border: #C49639 solid 3px;
+      margin-top: -150px;
+
+
+    }
+
+    .navbar-nav li {
+      font-size: 20px;
+      color: white;
+
+    }
+
+    
+
+    .artistNav .navbar-nav li a {
+      font-weight: bold;
+      font-size: 20px;
+
+    }
+    .artistNav .navbar-nav li a:hover {
+      cursor: pointer;
+      background-color: white;
+      color: black !important;
+    }
+
+    .logoTitle {
+      font-size: 50px;
+      font-weight: bold;
+      font-style: italic;
+    }
         .artist-card {
-            background-color: #161718;
+            background-color: #4d4747;;
             border-radius: 10px;
             padding: 20px;
             margin: 20px;
@@ -34,13 +96,56 @@
             font-size: 18px;
             margin-bottom: 10px;
         }
+        .artistContainer{
+          overflow-y:scroll;
+          height:700px;
+          margin-top: 101px;
+          color:white;
+          background-color:black;
+        }
+        .artistNav{
+          background-color: black;;
+        }
+        .artistNav a{
+          color:white !important;
+        }
     </style>
 </head>
 
 <!-- Creation of artist cards -->
 
 <body>
-    <div class="container-fluid">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top artistNav" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logoTitle" href="#">Artful</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="artists.html">Artists</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <div class="container-fluid artistContainer">
         <h1 class="text-center">Artists</h1>
         <div class="row">
             <div class="col-md-4">
