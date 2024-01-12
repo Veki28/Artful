@@ -1,71 +1,42 @@
-/* Body */
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body{
+  overflow: hidden;
+  
 }
 
-#main-content {
-    flex: 1;
-}
+  .navMenu {
+      color: #ffffff;
 
+      text-decoration: none !important;
 
-/* Socials */
+      padding: 10px;
+       
+  }
+  .navMenu:hover{
+      background-color: black;
+      color:#C49639;
+      
+  }
+  .nav-li {
 
-#socials {
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    color: #fff;
-}
+      display: inline-block;
+      padding: 0 10px; 
+      font-size: 18px;
+      
+  }
 
-#socials i {
-    font-size: 24px;
-    padding: 5%;
-    margin: 0 10px;
-    color: white;
-    transition: color 0.3s;
-}
-
-#socials i.hover {
-    color: #ccc;
-}
-
-#socials li {
-    display: inline-block;
-    list-style-type: none;
-    margin-right: 10px;
-}
-
-#socials ul {
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    list-style: none;
-}
-
-#socials ul li {
-    display: inline;
-    margin-right: 5px;
-}
-
-#socials ul li:last-child {
-    margin-right: 0;
-}
-
-#socials p {
-    margin: 0;
-    line-height: 40px;
-}
-
-#socials .social-icons {
-    display: inline-block;
-    margin-right: 5px;
-}
-
-#socials .social-icons:last-child {
-    margin-right: 0;
-}
+  .headermenu {
+      background-color: black;
+      color: white;
+      padding: 0px; 
+      margin: 0px;
+      
+  }
+ 
+  .aboutBack{
+      background-color: black;
+      color: white;
+      margin-top:56px;
+      overflow: scroll;
+     height: 700px;
+  }
