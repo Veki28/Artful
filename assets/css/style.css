@@ -67,3 +67,18 @@
     font-weight: bold;
     font-style: italic;
   }
+  .newsContainer{
+    background-color: black;
+  }
+  .card-body{
+    background-color: #4d4747;
+
+  }
+  .card-title{
+    color:white;
+    font-weight:bold;
+
+  }
+  .card-text{
+    color:white;
+  }
