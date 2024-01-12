@@ -29,7 +29,9 @@
       margin: 0px;
       
   }
- 
+  .active{
+    color:white
+  }
   .aboutBack{
       background-color: black;
       color: white;
